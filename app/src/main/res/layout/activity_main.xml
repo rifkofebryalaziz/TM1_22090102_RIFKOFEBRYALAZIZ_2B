@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="TM1-Rifko Febry Al Aziz-22090102"/>
+
+
+    <Button
+        android:id="@+id/submit_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:text="Submit"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="MASSAGE"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"
+        android:textSize="20sp"
+         />
+
+    <Button
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:text="DATA RECEIVED"
+        android:layout_marginBottom="30sp"/>
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:gravity="left"
+        android:text="STATUS"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:text="SISWA ALGO2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:gravity="left"
+        android:text="COMMENT"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:text="ANDA SUDAH TERKONEKSI KESERVER MIMOAPPS" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30sp"
+        android:text="CLOSE"
+        />
+
+
+
+
+</LinearLayout>
